@@ -19,7 +19,7 @@ aside {
 }
 
 #menu-area {
-    width: 200px;
+    width: 0px;
     height: 100vh;
     background-color:#CCC ;
     overflow-x: hidden;
@@ -27,7 +27,7 @@ aside {
     transition: all ease .5s;
 }
 
-#menu-area ul, #menu-area li {
+.menu-area ul, #menu-area li {
     padding: 0;
     list-style: none;
 }
@@ -42,3 +42,4 @@ aside {
 #menu-area li:hover{
     background-color: #ddd;
 }
+
